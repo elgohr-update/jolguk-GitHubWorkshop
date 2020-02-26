@@ -1,4 +1,4 @@
-# GitHub Actions Workshop
+# GitHub Actions Workshop by Charlene
 
 In this workshop you will create a GitHub workflow from scratch to build, test and deploy a .NET Core container image to a private container registry in Azure. 
 
