@@ -24,8 +24,8 @@ jobs:
         # The login username for the registry
         username: ${{secrets.ACR_USERNAME}}
         # The login password for the registry
-        password:  ${{secrets.ACR_PASSWORD}}
+        password: ${{secrets.ACR_PASSWORD}}
         # Use registry for pushing to a custom registry
-        registry:  ${{secrets.REGISTRY}}
+        registry: ${{secrets.ACR_REGISTRY}}
         # Use dockerfile when you would like to explicitly build a Dockerfile
         dockerfile: ./src/Web/Dockerfile
